@@ -1,2 +1,2 @@
 # tarpit-c
-TARPIT - A WEB APPLICATION SEEDED WITH VULNERABILITIES
+TARPIT-C : A set of C code snippets seeded with vulnerable conditions
