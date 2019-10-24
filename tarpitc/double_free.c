@@ -6,7 +6,7 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
-int main() {
+int double_free() {
   char* buffer = (char*)malloc (256);
   bool error = true;
 

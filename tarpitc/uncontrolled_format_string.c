@@ -7,9 +7,6 @@
 
 #include <stdio.h>
 
-int main(int argc, char * argv[]) {
-  char * format = argv[1];
-  char * str = argv[2];
-
+int format_string(char *format, char *str) {
   printf(format, str);
 }

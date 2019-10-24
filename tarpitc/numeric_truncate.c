@@ -6,7 +6,7 @@
 #include <limits.h>
 #include <string.h>
 
-int main() {
+int numeric_truncate() {
   unsigned int first_len = UINT_MAX - 256;
   unsigned int second_len = 256;
   unsigned int buf_len = 256;

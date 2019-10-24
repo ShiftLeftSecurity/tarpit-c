@@ -8,7 +8,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main() {
+int use_after_free() {
   char* buffer = (char*)malloc (256);
   bool error = true;
 

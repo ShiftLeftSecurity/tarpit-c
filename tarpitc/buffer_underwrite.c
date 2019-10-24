@@ -5,7 +5,7 @@
 
 #include <string.h>
 
-int main() {
+int buffer_underwrite() {
   char src[12];
   strncpy(src, "Buffer Underflow", sizeof(src));
 

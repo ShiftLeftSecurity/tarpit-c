@@ -19,7 +19,7 @@ bool GetPasswordFromUser(char *pwd, size_t pwd_size) {
   return true;
 }
 
-int main() {
+int dead_store() {
   char pwd[64];
   if (GetPasswordFromUser(pwd, sizeof(pwd))) {
     if (ConnectToInstance(pwd)) {

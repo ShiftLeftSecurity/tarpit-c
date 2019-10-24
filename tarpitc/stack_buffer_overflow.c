@@ -8,7 +8,7 @@
 
 #include <stdio.h>
 
-int main() {
+int stack_buffer_overflow() {
   char buffer[10];
   char * ret = gets(buffer); // <- Write outside
 }

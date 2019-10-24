@@ -6,10 +6,10 @@
 #include <stdlib.h>
 #include <string.h>
 
-int main(int argc, char * argv[]) {
+int heap_buffer_overflow(char *str) {
   char* buf = (char*) malloc(sizeof(char)*10);
 
-  strcpy(buf, argv[1]); // <- Write outside
+  strcpy(buf, str); // <- Write outside
 
   free(buf);
 }

@@ -6,7 +6,7 @@
 #include <limits.h>
 #include <string.h>
 
-int main() {
+int unsigend_integer_overflow() {
   unsigned int first_len = UINT_MAX;
   unsigned int second_len = 256;
   unsigned int buf_len = 256;
