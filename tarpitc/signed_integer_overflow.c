@@ -6,7 +6,7 @@
 #include <limits.h>
 #include <string.h>
 
-int main() {
+int signed_integer_overflow() {
   int first_len = INT_MAX;
   int second_len = 256;
   int buf_len = 256;
